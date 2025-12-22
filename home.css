@@ -1,9 +1,84 @@
-.header {
-    background-color: grey;
-    margin: 0 0 0 0;
+* {
+    margin: 4px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(10, 171, 152);
+    padding: 15px 40px;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #00bcd4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: color-mix(in srgb, #333333, #ffffff);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(to right, #009026, #00fffb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button {
     padding: 10px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #11cba9, #2575fc);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 8px 20px rgba(58, 123, 213, 0.4);
+    text-decoration: none;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #2575fc, #11cba9);
+    box-shadow: 0 8px 20px rgba(58, 123, 213, 0.4);
+}
+
+.login {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
 }
