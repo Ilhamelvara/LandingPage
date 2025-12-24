@@ -154,10 +154,17 @@ button:hover {
     color: #94a3b8;
 }
 
-.text {
-    color: #676767;
-    font-size: 18px;
-    line-height: 1.6;
-    margin: 20px;                    
+.content {
+    padding: 40px 20px;
 }
+
+.project-card {
+    max-width: 800px;
+    margin: auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
 
