@@ -55,52 +55,6 @@
     width: 100%;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 50px;
-    color: color-mix(in srgb, #333333, #ffffff);
-}
-
-h2 {
-    text-align: center;
-    margin-top: 30px;
-    background: linear-gradient(to right, #009026, #00fffb);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-button {
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #11cba9, #2575fc);
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    display: flex;
-    box-shadow: 0 8px 20px rgba(58, 123, 213, 0.4);
-    text-decoration: none;
-}
-
-button:hover {
-    transform: translateY(-3px);
-    background: linear-gradient(135deg, #2575fc, #11cba9);
-    box-shadow: 0 8px 20px rgba(58, 123, 213, 0.4);
-}
-
-.login {
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-}
-
 .footer {
     background-color: #000000;
     color: #cbd5e1;

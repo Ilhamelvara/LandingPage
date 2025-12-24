@@ -140,9 +140,79 @@ h2 {
 }
 
 .box2 p {
-    color: #000000;
+    color: #ffffff;
     font-size: 14px;
     text-align: justify;
     line-height: 1.6;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #000000;
+    color: #cbd5e1;
+    padding: 50px 20px 20px;
+    text-align: left;
+    margin: 20px auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 4px;
+}
+
+.footer-box {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-box h2,
+.footer-box h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.footer-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box ul li {
+    margin-bottom: 10px;
+}
+
+.footer-box ul li a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-box ul li a:hover {
+    color: #38bdf8;
+}
+
+.social li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #1e293b;
+    margin-top: 30px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.name {
+    margin-top: 30px;
+    background: linear-gradient(to right, #009026, #00fffb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
